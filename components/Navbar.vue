@@ -8,22 +8,22 @@
                 </nuxt-link>
             </li>
             <li class="nav-item">
-                <nuxt-link to="/" class="mx-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-900 hover:opacity-75" >
+                <nuxt-link to="/about-us" class="mx-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-900 hover:opacity-75" >
                 <span>About Us</span>
                 </nuxt-link>
             </li>
             <li class="nav-item">
-                <nuxt-link to="/" class="mx-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-900 hover:opacity-75" >
-                <span>Service</span>
+                <nuxt-link to="/services" class="mx-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-900 hover:opacity-75" >
+                <span>Services</span>
                 </nuxt-link>
             </li>
             <li class="nav-item">
-                <nuxt-link to="/" class="mx-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-900 hover:opacity-75" >
+                <nuxt-link to="/projects" class="mx-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-900 hover:opacity-75" >
                 <span>Projects</span>
                 </nuxt-link>
             </li>
             <li class="nav-item">
-                <nuxt-link to="/" class="mx-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-900 hover:opacity-75" >
+                <nuxt-link to="/contact-us" class="mx-3 py-2 flex items-center text-sm uppercase font-bold leading-snug text-gray-900 hover:opacity-75" >
                 <span>Contact Us</span>
                 </nuxt-link>
             </li>
@@ -62,5 +62,8 @@ export default {
 </script>
 
 <style>
+.nuxt-link-exact-active {
+  @apply text-yellow-500;
+}
 
 </style>
